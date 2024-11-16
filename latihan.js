@@ -10,3 +10,10 @@ if (nilai >= 90) {
 } else {
   console.log("E");
 }
+function placeName() {
+  let nama = prompt("Masukkan Nama Anda");
+  let umur = prompt("Masukkan Umur Anda");
+  document.getElementById("latihan").innerHTML = nama + umur;
+}
+placeName();
+document.getElementById("button").addEventListener("click", placeName);
