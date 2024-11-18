@@ -13,6 +13,7 @@ if (nilai >= 90) {
 function placeName() {
   let nama = prompt("Masukkan Nama Anda");
   let umur = prompt("Masukkan Umur Anda");
+  alert("halo " + nama + " umur anda " + umur);
   document.getElementById("latihan").innerHTML = nama + umur;
 }
 placeName();
